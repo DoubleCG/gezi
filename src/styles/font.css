@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'youyuan';
+    src: 
+         url('fonts/_-webfont.woff2') format('woff2'),
+         url('fonts/_-webfont.woff') format('woff'),
+         url('fonts/幼圆') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
