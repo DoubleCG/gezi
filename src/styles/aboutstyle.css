@@ -275,7 +275,7 @@
 .section .suolue .gallery-thumbs .swiper-slide-active .img_left { width: 240px; height: 140px; background-size: cover; }
 /*history*/
 .data_box { width: 679px; margin: 0 auto; }
-#wraptimeline { width: 100%; background: url(../images/t.gif) no-repeat center 0px; margin: 0 auto; }
+#wraptimeline { width: 100%; background: url(../images/time-line.gif) no-repeat center 0px; margin: 0 auto; }
 #timeline { position: relative; overflow: hidden; left: 0px; TOP: 0px; padding-TOP: 25px; }
 .leftpan { width: 15px }
 .rightpan { width: 15px }

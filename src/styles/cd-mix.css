@@ -498,60 +498,12 @@ xcustom form elements
 .cd-filter-block .list li:last-of-type {
   margin-bottom: 0;
 }
-/*.cd-filter-block input[type=radio],
-.cd-filter-block input[type=checkbox] {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  z-index: 2;
-}
-.cd-filter-block .checkbox-label,
-.cd-filter-block .radio-label {
-  padding-left: 24px;
-  font-size: 1.4rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.cd-filter-block .checkbox-label::before, .cd-filter-block .checkbox-label::after,
-.cd-filter-block .radio-label::before,
-.cd-filter-block .radio-label::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.cd-filter-block .checkbox-label::before,
-.cd-filter-block .radio-label::before {
-  width: 16px;
-  height: 16px;
-  left: 0;
-}
-.cd-filter-block .checkbox-label::after,
-.cd-filter-block .radio-label::after {
-  display: none;
-}
-.cd-filter-block .checkbox-label::after {
-  /* check mark style for check boxes */
-  width: 16px;
-  height: 16px;
-  background: url("../img/cd-icon-check.svg") no-repeat center center;
-}
+
 .cd-filter-block .radio-label::before,
 .cd-filter-block .radio-label::after {
   border-radius: 50%;
-}*/
+}
 .cd-filter-block .radio-label::after {
-  /* check mark style for radio buttons */
   width: 6px;
   height: 6px;
   background-color: #ffffff;
