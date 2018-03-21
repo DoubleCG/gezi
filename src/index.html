@@ -10,7 +10,9 @@
     <link rel="icon" href="./favicon.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index.swiper.fixed.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.1.6/css/swiper.min.css">
+    <link href="https://cdn.bootcss.com/video.js/6.7.4/alt/video-js-cdn.min.css" rel="stylesheet">
 
 </head>
 
@@ -46,102 +48,34 @@
 
 <div class="container index-page">
 
-
-
-
-
-
-    
-
-
     <div class="swiper-container">
-
-        <div class="swiper-wrapper" style="width: 6000px; height: 800px; transform: translate3d(-2400px, 0px, 0px);">
-            <div class="swiper-slide" style="width: 1200px; height: 800px; transform: translate3d(1921.42px, 0px, 0px) scale(0.9); transition-duration: 0ms; z-index: 0;">
-                <div class="title txt" style="transform: translate3d(0px, 53.3729px, 0px); transition-duration: 0ms;">
-                    <p class="titletop">丈量“视”界</p>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+                <div class="title"  data-swiper-parallax="-500" data-swiper-parallax-duration="2000">
+                    <h1 style="font-size:48px;">丈量“视”界</h1>
                     <br>
-                    <p>
-                        专业的图像识别技术研发与服务供应商
-                    </p>
+                    <h1>专业的图像识别技术研发与服务供应商</h1>
                 </div>
             </div>
-
-            <div onclick="window.location.href='./flagship.html'" class="swiper-slide slide1"
-                 style="width: 1200px; height: 800px; transform: translate3d(841.423px, 0px, 0px) scale(0.92209); transition-duration: 0ms; z-index: 1;">
-                <div class="title txt"
-                     style="transform: translate3d(0px, 23.3729px, 0px); transition-duration: 0ms;">
-                    <p>智能结算，体验源于创新</p>
+            <div class="swiper-slide slide2" >
+                <div class="title">
+                    <h1>智能结算，体验源于创新</h1>
                     <br>
-                    <p>——戈子视觉结算系统</p>
-                    <br>
+                    <h1>——戈子视觉结算系统</h1>
                 </div>
+                <h2 style="position:absolute;bottom:5px;left:45%;">智慧餐台原理图</h2>
             </div>
-            <div onclick="window.location.href='./goodprice.html'"
-                 class="swiper-slide slide2"
-                 style="width: 1200px; height: 800px; transform: translate3d(0px, 0px, 0px) scale(1); transition-duration: 0ms; z-index: 2;">
-                <div class="title txt"
-                     style="transform: translate3d(220.904px, 0px, 0px); transition-duration: 0ms;">
-                    <p>智能结算，体验源于创新</p>
+            <div class="swiper-slide slide3">
+                <div class="title">
+                    <h1>智能结算，体验源于创新</h1>
                     <br>
-                    <p>——戈子视觉结算系统</p>
-                    <br>
-                    <p style="text-align: center; padding-top: 200px">智慧餐台原理图</p>
-
+                    <h1>——戈子视觉结算系统</h1>
                 </div>
-                <h2 class="homepage-headline txt"
-                    style="transform: translate3d(220.904px, 0px, 0px); transition-duration: 0ms;"></h2>
-            </div>
-
-
-            <div class="swiper-slide slide3"
-                 style="width: 1200px; height: 800px; transform: translate3d(0px, 0px, 0px) scale(1); transition-duration: 0ms; z-index: 3;">
-                <div class="title txt"
-                     style="transform: translate3d(1220.9px, 0px, 0px); transition-duration: 0ms;">
-                    <p class="titletop">丈量“视”界</p>
-                    <br>
-                    <p>
-                        专业的图像识别技术研发与服务供应商
-                    </p>
-                </div>
-            </div>
-            <div onclick="window.location.href='./flagship.html'" class="swiper-slide slide1 swiper-slide-duplicate"
-                 style="width: 1200px; height: 800px; transform: translate3d(1921.42px, 0px, 0px) scale(0.9); transition-duration: 0ms; z-index: 4;">
-                <div class="title txt"
-                     style="transform: translate3d(0px, 53.3729px, 0px); transition-duration: 0ms;">
-                    <p>智能结算，体验源于创新</p>
-                    <br>
-                    <p>——戈子视觉结算</p>
-                    <br>
-
-                </div>
-            </div>
-            <div onclick="window.location.href='./goodprice.html'"
-                 class="swiper-slide slide2 swiper-slide-duplicate"
-                 style="width: 1200px; height: 800px; transform: translate3d(0px, 0px, 0px) scale(1); transition-duration: 0ms; z-index: 2;">
-                <div class="title txt" style="transform: translate3d(220.904px, 0px, 0px); transition-duration: 0ms;">
-                    <p>智能结算，体验源于创新</p>
-                    <br>
-                    <p>——戈子视觉结算系统</p>
-                    <br>
-                    <p style="text-align: center; padding-top: 200px">智慧餐台原理图</p>
-                </div>
-                <h2 class="homepage-headline txt"
-                    style="transform: translate3d(220.904px, 0px, 0px); transition-duration: 0ms;"></h2>
             </div>
         </div>
-
-
-        <a class="arrow-left"><span></span></a>
-        <a class="arrow-right"><span></span></a>
+         <div class="swiper-pagination"></div>
 
     </div>
-
-
-
-
-
-
 
 
 
@@ -154,7 +88,7 @@
                 <li>
                     <h2>戈子视觉结算系统——运营实拍视频</h2>
 
-                    <video id="video1" class="video-js" controls preload="auto" width="960" height="540"
+                    <video id="video1" class="video-js" controls preload="auto" width="480" height="300"
                            data-setup='{"example_option":true}'>
                         <source id="sourceBox" src="./video/video1.mp4" type='video/mp4'>
                         <p class="vjs-no-js">不支持播放</p>
@@ -163,7 +97,7 @@
                 <li>
                     <h2>戈子视觉结算系统——智能结算神器，既省人工又高效</h2>
 
-                    <video id="video2" class="video-js" controls preload="auto" width="960" height="540"
+                    <video id="video2" class="video-js" controls preload="auto" width="480" height="300"
                            data-setup='{"example_option":true}'>
                         <source id="sourceBox2" src="./video/video2.mp4" type='video/mp4'>
                         <p class="vjs-no-js">不支持播放</p>
@@ -172,6 +106,9 @@
             </ul>
         </div>
     </div>
+
+
+
 
 
     <div class="technology">
@@ -373,7 +310,7 @@
                 </li>
                 <li><span>客服QQ：</span><span>&nbsp;&nbsp;416188523</span>
                 </li>
-                <li><img style="height: 30%" src="images/fweixin.png">
+                <li><img style="height: 30%" src="images/fweixin.jpg">
                 </li>
 
             </ul>
@@ -423,7 +360,7 @@
                 <b class="wechat"></b>
                 <div class="wechat-pic" style="display: none;">
                     <p>
-                        <img src="images/fweixin.png">
+                        <img src="images/fweixin.jpg">
                         关注企业微信</p>
                 </div>
             </li>
@@ -435,9 +372,71 @@
         var sentry = '';
     </script>
     <script src="./scripts/main.600de188.js"></script>
-    <!--<script src="scripts/swiper.fixed.min.js"></script>-->
     <script src="https://cdn.bootcss.com/Swiper/4.1.6/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/video.js/6.7.4/ie8/videojs-ie8.min.js"></script>
+    <script src="https://cdn.bootcss.com/video.js/6.7.4/video.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true, // 循环
+            autoplay: true,//可选选项，自动滑动
+            direction: 'horizontal', //vertical
+            speed: 500,  // default: 300
+            grabCursor: true,
+            parallax : true,    // http://www.swiper.com.cn/api/parameters/197.html
+            setWrapperSize :true,  //Swiper使用flexbox布局(display: flex)，
+            // virtualTranslate : true,  //虚拟的位移
+            // roundLengths : true,   //设定为true将slide的宽和高取整(四舍五入)以防止某些分辨率的屏幕上文字或边界(border)模糊。
 
+            breakpoints: {   //断点设定：根据屏幕宽度设置某参数为不同的值，类似于响应式布局的media screen。
+                //当宽度小于等于320
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                //当宽度小于等于480
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                //当宽度小于等于640
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            },
+            runCallbacksOnInit : false, //初始化不触发回调
+            on:{
+                slideChangeTransitionStart:function(){
+                    console.log('触发了一次回调');
+                },
+                slideChange: function () {
+                    console.log(this.activeIndex);
+                },
+            },
+            watchOverflow: false,  //当没有足够的slide切换时，例如只有1个slide（非loop），swiper会失效且隐藏导航等。
+            preloadImages:false,  //默认为true，Swiper会强制加载所有图片。
+            updateOnImagesReady : true, // 默认为true，Swiper会强制加载所有图片。
+
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // 如果需要滚动条
+            // scrollbar: {
+            //   el: '.swiper-scrollbar',
+            // },
+        });
+
+
+    </script>
 
     <script>
         document.querySelector('.wechat-box').onmouseover = function () {

@@ -1,0 +1,53 @@
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    direction: ltr;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    transition-property: transform, left, top;
+    transition-duration: 0s;
+    transform: translate3d(0px, 0, 0);
+    transition-timing-function: ease;
+    box-sizing: content-box;
+}
+
+.slide1 {
+    background: url(../images/index/big-index.png) no-repeat;
+    background-size: 100%;
+}
+.slide1 .title{
+    color:#FFF;
+    padding-left:10%;
+    margin-top:200px;
+}
+
+.slide2 {
+    background: url(../images/index/watch_alt_large.png) no-repeat;
+    background-size: 100%;
+}
+
+.slide2 .title{
+    padding-left:5%;
+    margin-top:200px;
+}
+
+.slide2 .title h1{
+    font-size:32px;
+}
+.slide3 {
+    background: url(../images/index/big-product.png) no-repeat center;
+}
+
+.slide3 .title {
+    padding-left:5%;
+    margin-top:200px;
+}
+.slide3 .title h1{
+    font-size:32px;
+}

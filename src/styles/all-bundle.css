@@ -12984,7 +12984,7 @@ video::-webkit-media-text-track-display {
     color: #e8e8ff
 }
 .bannerImg{
-    background: url(../images/video-sdk/banner22.jpg) no-repeat;
+    background: url(../images/video-sdk/banner22) no-repeat;
     background-size: 1300px 100%;
     height: 600px;
     width: 100%;

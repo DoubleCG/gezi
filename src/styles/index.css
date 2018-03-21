@@ -1779,15 +1779,7 @@ video::-webkit-media-text-track-display {
     display: block
 }
 
-/*.index-page .technology .level.tech-face li {*/
-/*float: left;*/
-/*width: 33.3%;*/
-/*height: 290px*/
-/*}*/
 
-/*.index-page .technology .level.tech-face li img {*/
-/*padding-top: 50px*/
-/*}*/
 .index-page .technology .level.tech-face .sub-ul {
     padding-top: 80px
 }
@@ -1993,14 +1985,14 @@ video::-webkit-media-text-track-display {
 }
 
 .index-page .customers dl dd .lenovo {
-    background: url(../images/index/partners/ShanghaiMeinaie.jpg) no-repeat 50%
+    background: url(../images/index/partners/huananligong) no-repeat 50%
 }
 
 .index-page .customers dl dd .alipay {
     width: 240px;
     height: 380px;
     position: relative;
-    background: url(../images/index/partners/FoshanGaoMing.jpg) no-repeat 50%
+    background: url(../images/index/partners/mobike) no-repeat 50%
 }
 
 .index-page .customers dl dd .alipay h3 {
@@ -2012,29 +2004,29 @@ video::-webkit-media-text-track-display {
 
 
 .index-page .customers dl dd .didi {
-    background: url(../images/index/partners/yidaifangzhi.jpg) no-repeat 50%
+    background: url(../images/index/partners/dangdai) no-repeat 50%
 }
 
 .index-page .customers dl dd .camera {
-    background: url(../images/index/partners/SCAU.jpg) no-repeat 50%
+    background: url(../images/index/partners/yidafangzhi) no-repeat 50%
 }
 
 .index-page .customers dl dd .meitu {
-    background: url(../images/index/partners/noromalschool.jpg) no-repeat 50%
+    background: url(../images/index/partners/yida) no-repeat 50%
 }
 
 .index-page .customers dl dd .shentuo {
-    background: url(../images/index/partners/shengtuo.jpg) no-repeat 50%
+    background: url(../images/index/partners/shengtuo) no-repeat 50%
 }
 
 .index-page .customers dl dd .huadong {
-    background: url(../images/index/partners/huadong.jpg) no-repeat 50%
+    background: url(../images/index/partners/huadongdesign) no-repeat 50%
 }
 
 .index-page .customers dl dd .yukai {
     width: 240px;
     height: 180px;
-    background: url(../images/index/partners/yuaki.jpg) no-repeat 50%
+    background: url(../images/index/partners/yukai) no-repeat 50%
 }
 
 .index-page .advantage {
@@ -2091,26 +2083,9 @@ video::-webkit-media-text-track-display {
 }
 
 
-.contact-us-page .contact-us-box {
-    width: 500px;
-    margin:0 auto;
-}
-
-.contact-us-page .contact-us-box h2.title {
-    margin-top:3rem;
-    text-align:center;
-    border-top:2px solid #302B3A;
-    color: #3f3f4c;
-    padding: 10px 0 20px
-}
-
-.contact-us-page .contact-us-box p{
-    text-align:center;
-}
-
 
 .container {
-    padding-top: 68px;
+    padding-top: 135px;
     background-color: #fff
 }
 
@@ -2187,204 +2162,4 @@ body {
     padding: 0;
     margin: 0;
     font-size: 13px;
-}
-.swiper-container {
-    margin-top: -40px;
-    width: 100%;
-    height: 800px
-}
-
-.arrow-left {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 15%;
-    height: 100%;
-    z-index: 999
-}
-
-.arrow-left span {
-    margin-top: -32px;
-    display: block;
-    left: 20px;
-    top: 50%;
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    border-radius: 100%;
-    background: rgba(180, 180, 180, .25) url(../img/arrows.png) no-repeat center 17px;
-    opacity: 0;
-    -webkit-transition: opacity .5s ease;
-    transition: opacity .5s ease
-}
-
-.arrow-left:hover span {
-    opacity: .6
-}
-
-.arrow-right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 15%;
-    height: 100%;
-    z-index: 999
-}
-
-.arrow-right span {
-    margin-top: -32px;
-    display: block;
-    right: 20px;
-    top: 50%;
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    border-radius: 100%;
-    background: rgba(180, 180, 180, .25) url(../img/arrows.png) no-repeat center -71px;
-    opacity: 0;
-    -webkit-transition: opacity .5s ease;
-    transition: opacity .5s ease
-}
-
-.arrow-right:hover span {
-    opacity: .6
-}
-
-
-.slide3 {
-    background: #000 url(../images/index/big-index.jpg) no-repeat 50% 10%;
-    background-size: 100% auto
-}
-
-.slide1 .title {
-    text-align: left;
-    padding-left:  50px;
-    margin-top: 250px;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.slide2 {
-    background: #f3f3f3 url(../images/index/watch_alt_large.jpg) no-repeat center 50%;
-    background-size: auto 100%;
-}
-
-.slide2 .title {
-    text-align: left;
-    padding-left:  50px;
-    margin-top: 250px;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.slide2 h2 {
-    bottom: 100px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    position: absolute;
-    width: 100%
-}
-
-.slide1 {
-    background: #fff url(../images/index/big-product.jpg) no-repeat center 70%;
-    background-size: auto 70%;
-}
-
-.slide3 .title {
-    color: white;
-    text-align: left;
-    padding-left:  50px;
-    margin-top: 250px;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-
-
-.slide3 .title {
-    color: white;
-    text-align: left;
-    padding-left:  50px;
-    margin-top: 200px;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-
-.titletop{
-
-    color: white;
-    text-align: left;
-    padding-left:  50px;
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.swiper-container {
-    margin:0 auto;
-    position:relative;
-    overflow:hidden;
-    direction:ltr;
-    -webkit-backface-visibility:hidden;
-    -moz-backface-visibility:hidden;
-    -ms-backface-visibility:hidden;
-    -o-backface-visibility:hidden;
-    backface-visibility:hidden;
-    z-index:1;
-}
-.swiper-wrapper {
-    position:relative;
-    width:100%;
-    -webkit-transition-property:-webkit-transform, left, top;
-    -webkit-transition-duration:0s;
-    -webkit-transform:translate3d(0px,0,0);
-    -webkit-transition-timing-function:ease;
-
-    -moz-transition-property:-moz-transform, left, top;
-    -moz-transition-duration:0s;
-    -moz-transform:translate3d(0px,0,0);
-    -moz-transition-timing-function:ease;
-
-    -o-transition-property:-o-transform, left, top;
-    -o-transition-duration:0s;
-    -o-transform:translate3d(0px,0,0);
-    -o-transition-timing-function:ease;
-    -o-transform:translate(0px,0px);
-
-    -ms-transition-property:-ms-transform, left, top;
-    -ms-transition-duration:0s;
-    -ms-transform:translate3d(0px,0,0);
-    -ms-transition-timing-function:ease;
-
-    transition-property:transform, left, top;
-    transition-duration:0s;
-    transform:translate3d(0px,0,0);
-    transition-timing-function:ease;
-
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-.swiper-free-mode > .swiper-wrapper {
-    -webkit-transition-timing-function: ease-out;
-    -moz-transition-timing-function: ease-out;
-    -ms-transition-timing-function: ease-out;
-    -o-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    margin: 0 auto;
-}
-.swiper-slide {
-    float: left;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-
-/* IE10 Windows Phone 8 Fixes */
-.swiper-wp8-horizontal {
-    -ms-touch-action: pan-y;
-}
-.swiper-wp8-vertical {
-    -ms-touch-action: pan-x;
 }
