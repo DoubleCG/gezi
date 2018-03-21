@@ -1,0 +1,378 @@
+.logo_title{
+    margin-top:20px;
+}
+blockquote, body, dd, div, dl, dt, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, input, li, ol, p, pre, select, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-family: Microsoft YaHei, 微软雅黑, Arial, sans-serif;
+    box-sizing: border-box;
+    line-height: 1
+}
+
+body{
+    background-color: #edf0f2;
+    min-width: 1140px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "microsoft yahei", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    font-size: 13px;
+}
+.container {
+    padding-top: 68px;
+    background-color: #fff
+}
+a:active, a:focus, a:visited, button:active, button:focus, button:visited, div:active, div:focus, div:visited, input:active, input:focus, input:visited, li:active, li:focus, li:visited, p:active, p:focus, p:visited {
+    outline: none
+}
+
+a {
+    color: #fff;
+    cursor: pointer
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+
+.header-page {
+    position: fixed;
+    width: 100%;
+    min-width: 1140px;
+    max-width: 1440px;
+    height: 68px;
+    top: 0;
+    color: #fff;
+    z-index: 122;
+    background-color: rgba(40, 40, 48, .8)
+}
+
+.header-page .nav {
+    display: inline-block
+}
+
+.header-page .nav .nav-li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 68px;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    font-size: 14px
+}
+
+.header-page .nav .nav-li:hover {
+    background-color: #282830;
+    color: #fff
+}
+
+.header-page .nav .nav-li:hover ul {
+    display: block
+}
+
+.header-page .nav .nav-li .main-span {
+    font-size: 16px;
+    margin: 0 16px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.header-page .nav .nav-li .main-span.active {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00a4e3
+}
+
+.header-page .nav .nav-li .header-new {
+    position: absolute;
+    top: 17px;
+    right: 12px
+}
+
+.header-page .nav .nav-li a {
+    color: #fff
+}
+
+.header-page .nav .nav-li .a-box {
+    position: relative;
+    display: table
+}
+
+.header-page .nav .nav-li .a-box img {
+    position: absolute;
+    top: 0;
+    right: -5px
+}
+
+.header-page .nav .nav-li ul {
+    transition: all .3s ease 0s;
+    display: none;
+    background-color: #282830;
+    position: absolute;
+    top: 68px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 8px
+}
+
+.header-page .nav .nav-li ul li {
+    display: block;
+    padding: 0 30px;
+    width: auto;
+    text-align: left;
+    min-height: 40px;
+    line-height: 40px
+}
+
+.header-page .nav .nav-li ul li .header_link:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.header-page .nav .nav-li ul.contact {
+    right: 22px;
+    display: block
+}
+
+.header-page .nav .nav-li ul.demo, .header-page .nav .nav-li ul.product {
+    width: auto;
+    padding: 20px 0 30px
+}
+
+.header-page .nav .nav-li ul.demo p, .header-page .nav .nav-li ul.product p {
+    font-size: 14px;
+    color: #ebebeb;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    cursor: text
+}
+
+.header-page .nav .nav-li ul.demo li, .header-page .nav .nav-li ul.product li {
+    padding: 0 40px;
+    height: 325px;
+    display: inline-block;
+    min-width: 130px;
+    vertical-align: text-top;
+    border-left: 1px dotted #4d4d5a
+}
+
+.header-page .nav .nav-li ul.demo li:first-child, .header-page .nav .nav-li ul.product li:first-child {
+    border-left: none;
+    padding-left: 30px
+}
+
+.header-page .nav .nav-li ul.demo li:last-child, .header-page .nav .nav-li ul.product li:last-child {
+    padding-right: 30px
+}
+
+.header-page .nav .nav-li ul.demo a, .header-page .nav .nav-li ul.product a {
+    display: block;
+    height: 36px;
+    color: #aaa;
+    vertical-align: bottom
+}
+
+.header-page .nav .nav-li ul.demo {
+    right: 0
+}
+
+.header-page .nav .nav-li ul.demo li {
+    height: 226px
+}
+
+.header-page .logo {
+    float: left;
+    width: 140px
+}
+
+.header-page .logo img {
+    display: block;
+    margin: 18px 0 0 40px
+}
+
+.header-page .right-nav {
+    float: right;
+    margin-right: 40px
+}
+
+.header-page .right-nav .console, .header-page .right-nav .register {
+    font-size: 16px;
+    width: 80px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: #00b2e3;
+    display: block;
+    line-height: 28px;
+    margin: -5px 0 0;
+    transition: all .3s ease 0s
+}
+
+.header-page .right-nav .console:hover, .header-page .right-nav .register:hover {
+    background-color: #fff;
+    color: #00b2e3 !important
+}
+
+.contact-page {
+    background: url(../images/contact/back.jpg) no-repeat 50%;
+    background-size: cover;
+    width: 100%;
+    height: 346px;
+    color: #fff;
+    text-align: center;
+    padding: 78px 0 0
+}
+
+.contact-page h3 {
+    padding-bottom: 22px;
+    font-size: 30px
+}
+
+.search-demo-container .handle-img .img-box .drawFaceBorder, .search-demo-container .handle-img .img-box .drawLandmark {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 20
+}
+
+
+.banner-page .banner {
+    height: 352px;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    padding-top: 102px;
+    text-align: center
+}
+
+.banner-page .banner h1 {
+    font-size: 48px
+}
+
+.banner-page .banner p {
+    padding: 24px 0 34px;
+    font-size: 14px
+}
+
+
+
+.banner-page .get-started-banner h1 {
+    font-size: 30px
+}
+
+.banner-page .get-started-banner p {
+    line-height: 22px;
+    width: 500px;
+    margin: 0 auto
+}
+
+.banner-page .contact-us-banner {
+    background: url(../images/contact-us-page/banner.jpg) no-repeat top;
+    background-size: cover;
+    height: 388px;
+    position: relative;
+    top: -68px;
+    text-align: left;
+    padding: 168px 0 0 200px
+}
+
+.banner-page .contact-us-banner h1 {
+    font-size: 36px
+}
+
+.banner-page .contact-us-banner p {
+    font-size: 18px;
+    max-width: 490px;
+    line-height: 1.78;
+    padding-top: 14px
+}
+
+.footer-box {
+    height: 484px;
+    background-color: #2c2c2c;
+    color: #dadada;
+    width: 100%;
+    position: relative
+}
+
+.footer-box .footer-container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.footer-box .support {
+    width: 420px;
+    float: left;
+    padding-top: 64px
+}
+
+.footer-box .support img {
+    display: block;
+    margin-bottom: 25px
+}
+
+.footer-box .support li {
+    padding-bottom: 10px
+}
+
+.footer-box .introduction {
+    width: 700px;
+    padding-top: 64px;
+    float: right
+}
+
+.footer-box .introduction dd {
+    float: right;
+    margin-left: 100px
+}
+
+.footer-box .introduction dd p {
+    color: #797979;
+    padding-bottom: 34px
+}
+
+.footer-box .introduction dd ul li {
+    padding-bottom: 34px
+}
+
+.footer-box .introduction dd ul li a {
+    color: #dadada
+}
+
+.footer-box .introduction dd ul li a:hover {
+    color: #fff
+}
+
+.footer-box .copyright {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -254px
+}
+
+
+.contact-us-page .contact-us-box {
+    width: 500px;
+    margin:0 auto;
+}
+
+.contact-us-page .contact-us-box h2.title {
+    margin-top:3rem;
+    text-align:center;
+    border-top:2px solid #302B3A;
+    color: #3f3f4c;
+    padding: 10px 0 20px
+}
+
+.contact-us-page .contact-us-box p{
+    text-align:center;
+}
+
+
