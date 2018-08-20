@@ -9,20 +9,8 @@ const pump = require('pump');
 const htmlminify = require("gulp-html-minify");
 
 
-gulp.task('default', ['imgmin', 'htmlmin', 'cssmin', 'jsmin', 'video'], () = > {
-    // gulp.src(['./src/**/*.{jpg,png}'])
-    //     .pipe(imagemin())
-    //     .pipe(gulp.dest('./dist'))
-
-    // imagemin2(['./src/**/*.{jpg,png,jpeg}'], './dist',{
-    //     plugins: [
-    //         imageminJpegtran(),
-    //         imageminPngquant({quality: '65-80'})
-    //     ]
-    // }).
-    // then(files => {
-    // 	console.log(files);    
-    // })
+gulp.task('default', ['imgmin', 'htmlmin', 'cssmin', 'jsmin', 'video'], function(){
+    console.log("Finish Build");
 });
 
 
@@ -32,21 +20,13 @@ gulp.task('htmlmin', function () {
         .pipe(gulp.dest("./build"))
 });
 
-// ok
-gulp.task('cssmin', () = > {
+
+
+gulp.task('cssmin', function(){
     gulp.src('./src/**/*.css')
     .pipe(cssmin())
     .pipe(gulp.dest('./build'));
 })
-
-gulp.task('test-css-prefixer', () = > {
-    gulp.src('./test.css')
-    .pipe(autoprefixer({
-        browsers: ['>1%']
-    }))
-    .pipe(gulp.dest('./test-build'));
-})
-
 
 gulp.task('jsmin', function (cb) {
     pump([
@@ -59,13 +39,23 @@ gulp.task('jsmin', function (cb) {
 
 
 // ok
-gulp.task('imgmin', () = > {
-    gulp.src(['./src/**/*.{jpg,png,jpeg}'])
+gulp.task('imgmin', function(){
+    gulp.src(['./src/images/**/*'])
+    // gulp.src(['./src/**/*.{jpg,png,jpeg}'])1
     .pipe(imagemin())
-    .pipe(gulp.dest('./build'))
+    .pipe(gulp.dest('./build/images'))
 })
 
-gulp.task('video', () = > {
+gulp.task('video', function() {
     gulp.src(["./src/video/*.mp4"])
     .pipe(gulp.dest('./build/video'))
 })
+
+
+// gulp.task('test-css-prefixer', () = > {
+//     gulp.src('./test.css')
+//     .pipe(autoprefixer({
+//         browsers: ['>1%']
+//     }))
+//     .pipe(gulp.dest('./test-build'));
+// })
