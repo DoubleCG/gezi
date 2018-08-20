@@ -23,9 +23,7 @@ gulp.task('default', ['imgmin', 'htmlmin', 'cssmin', 'jsmin', 'video'], () = > {
     // then(files => {
     // 	console.log(files);    
     // })
-}
-)
-;
+});
 
 
 gulp.task('htmlmin', function () {
@@ -42,7 +40,7 @@ gulp.task('cssmin', () = > {
 })
 
 gulp.task('test-css-prefixer', () = > {
-    gulp.src('./test/*.css')
+    gulp.src('./test.css')
     .pipe(autoprefixer({
         browsers: ['>1%']
     }))
@@ -52,7 +50,7 @@ gulp.task('test-css-prefixer', () = > {
 
 gulp.task('jsmin', function (cb) {
     pump([
-            gulp.src('./src/**/*.js'),
+            gulp.src('./src/**.js'),
             uglify(),
             gulp.dest('./build')
         ],
@@ -68,8 +66,6 @@ gulp.task('imgmin', () = > {
 })
 
 gulp.task('video', () = > {
-    gulp.src(['./src/video/*.mp4'])
+    gulp.src(["./src/video/*.mp4"])
     .pipe(gulp.dest('./build/video'))
 })
-
-
