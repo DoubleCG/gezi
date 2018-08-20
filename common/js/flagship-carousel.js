@@ -1,4 +1,3 @@
-//var newsName = <%=newsList %>;
 $(function() {
 	$(".information_rotate").width($(".information_rotate").parent().width() - 420);
 	
@@ -7,8 +6,6 @@ $(function() {
 		for (var i = $(this).height(), t = $("p", $(this)).eq(1); t.outerHeight() > i;) t.text(t.text().replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "..."))
 	});
 	var oopp = dsad.split("|");
-	// console.info(oopp)	
-
 
 	var sss = $(".swiper5").children().children().length;
 
@@ -106,8 +103,6 @@ $(function() {
 		"fast")
 	});
 
-
-
 	$(window).resize(function() {
 		spiper5.slideTo(0);
 		$(".information_rotate").width($(".information_rotate").parent().width() - 421);
@@ -124,5 +119,4 @@ $(function() {
 		},150);
 		spp6.onResize();
 	});
-	// $("#banner .swiper-slide:eq(1) a").addClass("external");
 })
