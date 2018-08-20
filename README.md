@@ -1,1 +1,4 @@
-npm install gulp
+npm install
+
+
+纯粹的静态文件
