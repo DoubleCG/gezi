@@ -375,13 +375,12 @@
             loop: true, // 循环
             autoplay: true,//可选选项，自动滑动
             direction: 'horizontal', //vertical
-            speed: 500,  // default: 300
+            speed: 3000,
             grabCursor: true,
             parallax : true,    // http://www.swiper.com.cn/api/parameters/197.html
             setWrapperSize :true,  //Swiper使用flexbox布局(display: flex)，
             // virtualTranslate : true,  //虚拟的位移
             // roundLengths : true,   //设定为true将slide的宽和高取整(四舍五入)以防止某些分辨率的屏幕上文字或边界(border)模糊。
-
             breakpoints: {   //断点设定：根据屏幕宽度设置某参数为不同的值，类似于响应式布局的media screen。
                 //当宽度小于等于320
                 320: {
@@ -434,11 +433,13 @@
     </script>
 
     <script>
-        document.querySelector('.wechat-box').onmouseover = function () {
-            document.querySelector('.wechat-pic').style.display = 'inline-block';
+        let wechatBox = document.querySelector('.wechat-box'),
+            wechatPic = document.querySelector('.wechat-pic');
+        wechatBox.onmouseover = function () {
+            wechatPic.style.display = 'inline-block';
         }
-        document.querySelector('.wechat-box').onmouseout = function () {
-            document.querySelector('.wechat-pic').style.display = 'none';
+        wechatBox.onmouseout = function () {
+            wechatPic.style.display = 'none';
         }
     </script>
 </body>
