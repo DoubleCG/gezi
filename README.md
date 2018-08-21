@@ -1,8 +1,16 @@
-cnpm install
-
-npm run build
 
 
+安装依赖：npm install
 
-把build出来的文件作为官网基础
-纯粹的静态文件
+本地浏览：npm start
+
+**发布**
+先安装 pm2 :  npm install pm2 -g 
+
+部署：npm run deploy
+
+停止部署：npm run stop
+
+
+
+端口：127.0.0.1:3000
