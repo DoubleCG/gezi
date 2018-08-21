@@ -1,4 +1,10 @@
 
+请事先准备好 node 和 npm
+
+git clone https://github.com/DoubleCG/wgg_gezi_website
+cd wgg_gezi_website
+
+
 
 安装依赖：npm install
 
